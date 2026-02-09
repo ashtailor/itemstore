@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.project.delta</groupId>
-	<artifactId>project_delta</artifactId>
+	<artifactId>itemstore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>ItemStore</name>
 	<description>demo_project</description>
 	
