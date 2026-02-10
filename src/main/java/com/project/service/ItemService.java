@@ -10,9 +10,9 @@ import com.project.modal.Items;
 @Service
 public class ItemService 
 {
-	List<Items> list = new ArrayList<>();
+	static List<Items> list = new ArrayList<>();
+	static Integer cnt = 1; 
 	
-	Integer cnt = 1; 
 	public Items addItem(Items item)
 	{
 		item.setId(cnt++);
@@ -24,7 +24,7 @@ public class ItemService
 	{
 		for(Items item :list)
 		{
-			if(item.getId().equals(id))
+			if(id.equals(item.getId()))
 			{
 				return item;
 			}
